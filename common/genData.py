@@ -27,7 +27,7 @@ def main():
                       help="max random number value", metavar="M")
     parser.add_option("-m", "--min", dest="min", default=1, type="int",
                       help="min random number value", metavar="m")
-    parser.add_option("-n", "--numbers", dest="nums", default=5, type="int",
+    parser.add_option("-n", "--numbers", dest="nums", default=50, type="int",
                       help="generate n random numbers", metavar="n")
     parser.add_option("-u", "--unique", dest="unique", action="store_true",
                       help="do not allow repeated numbers", metavar="u")
