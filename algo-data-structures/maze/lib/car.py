@@ -2,7 +2,7 @@
 # coding=utf-8
 
 import util
-from util import constants as C
+import constants as C
 
 class car:
   def __init__(self, pos = None, dir = None):
