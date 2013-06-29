@@ -15,7 +15,7 @@ class coordinate(tuple):
 
 class constants:
 
-  def __init__():
+  def __init__(self):
     self.BLOCK = '█'
     self.SPACE = '+'
     self.CAR = '@'

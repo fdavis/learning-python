@@ -9,7 +9,7 @@ class graph:
 
   # attempt to load plaintext map file
   # format should be only block/space/car characters and newlines
-  def __init__(filename):
+  def __init__(self, filename):
     self.map = []
     try:
       f = open(filename)

@@ -5,7 +5,7 @@ import util
 from util import constants as C
 
 class car:
-  def __init__(pos = None, dir = None):
+  def __init__(self, pos = None, dir = None):
     if pos:
       self.position = util.coordinate(pos)
     else:
