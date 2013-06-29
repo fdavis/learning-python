@@ -4,7 +4,7 @@
 import util
 import constants as C
 
-class car:
+class maze(graph):
   def __init__(self, pos = None, dir = None):
     if pos:
       self.position = util.coordinate(pos)

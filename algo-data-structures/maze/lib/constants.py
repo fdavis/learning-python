@@ -20,7 +20,7 @@ DIRECTION_MAP = {0: 'North',
                  7: 'Northwest'
                  }
 
-DEFAULT_POSITION = (0, 0)
+DEFAULT_POSITION = coordinate(0, 0)
 
 # this is used to increment position based on the direction
 DIRECTION_TO_POSITION_MAP = {0: coordinate(0,1),

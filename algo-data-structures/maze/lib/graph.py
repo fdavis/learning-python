@@ -29,8 +29,10 @@ class graph:
       
 
 
-  def __unicode__():
+  def __repr__():
+    res = ""
     for row in self.map:
       for col in row:
-        sys.stdout.write(col)
-      sys.stdout.write('\n')
+        res += col
+      res += '\n'
+    return res
